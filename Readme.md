@@ -1,0 +1,3 @@
+Define card sets you wish to play in the "DR.py" as dictionaries following the formatting of the examples, then add your card set to the list in DominionRandomizer.py and run DominionRandomizer.py to get a random game.
+
+The card choices are not fully random, but rather weighed by "w", plus any combos defined in your dictionary, e.g. you might have defense cards with weight 0, but with a combo weight from attack cards, such that defense cards will not be added unless an attack card exists in your playset.
