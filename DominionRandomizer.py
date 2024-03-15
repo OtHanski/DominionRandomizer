@@ -3,7 +3,7 @@ from DRcom import *
 
 DLC = { "Valtakunta": 1, \
         "Elonkerjuu": 1, \
-        "Hovin juonet": 0}
+        "Hovin_juonet": 1}
 
 
 debug = 0
