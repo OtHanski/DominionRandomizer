@@ -234,7 +234,7 @@ Hovin_juonet = {\
     "Käskynhaltija": {"kwd": ["drw", "mon", "del"],\
                 "cmb":{},"w":1,\
                 "cost": 3, \
-                "requires": []},\ 
+                "requires": []},\
     "Huijari": {"kwd": ["mon", "att", "del"],\
                 "cmb":{},"w":1,\
                 "cost": 3, \
