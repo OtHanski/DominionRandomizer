@@ -173,3 +173,106 @@ Elonkerjuu = {\
                 "cost": 3, \
                 "requires": []}\
 }
+
+Hovin_juonet = {\
+    "Salainen Kammio": {"kwd": ["mon", "def", "scr"],\
+                "cmb":{"att":0.4, "def": -0.8},"w":0,\
+                "cost": 2, \
+                "requires": []},\
+    "Paroni": {"kwd": ["buy", "mon", "del", "add"],\
+                "cmb":{},"w":1,\
+                "cost": 4, \
+                "requires": []},\
+    "Silta": {"kwd": ["buy", "mon"],\
+                "cmb":{},"w":1,\
+                "cost": 4, \
+                "requires": []},\
+    "Vehkeilijä": {"kwd": ["mon", "drw", "act"],\
+                "cmb":{"act":0.1},"w":0.7,\
+                "cost": 4, \
+                "requires": []},\
+    "Kupariseppä": {"kwd": ["mon"],\
+                "cmb":{},"w":1,\
+                "cost": 4, \
+                "requires": []},\
+    "Sisäpiha": {"kwd": ["drw", "scr"],\
+                "cmb":{},"w":1,\
+                "cost": 2, \
+                "requires": []},\
+    "Rautapaja": {"kwd": ["add", "act", "mon", "drw"],\
+                "cmb":{},"w":1,\
+                "cost": 4, \
+                "requires": []},\
+    "Naamiaiset": {"kwd": ["drw", "del"],\
+                "cmb":{},"w":1,\
+                "cost": 3, \
+                "requires": []},\
+    "Kaivoskylä": {"kwd": ["drw", "act", "mon", "del"],\
+                "cmb":{},"w":1,\
+                "cost": 4, \
+                "requires": []},\
+    "Kätyri": {"kwd": ["act", "mon", "dsc", "drw", "att"],\
+                "cmb":{},"w":1,\
+                "cost": 5, \
+                "requires": []},\
+    "Apuri": {"kwd": ["mon", "act", "buy", "drw"],\
+                "cmb":{},"w":1,\
+                "cost": 2, \
+                "requires": []},\
+    "Tihulainen": {"kwd": ["att", "del"],\
+                "cmb":{},"w":1,\
+                "cost": 5, \
+                "requires": []},\
+    "Tiedustelija": {"kwd": ["act", "scr"],\
+                "cmb":{"pnt": 0.2},"w":1,\
+                "cost": 4, \
+                "requires": []},\
+    "Hökkelikylä": {"kwd": ["act", "drw"],\
+                "cmb":{},"w":1,\
+                "cost": 3, \
+                "requires": []},\
+    "Käskynhaltija": {"kwd": ["drw", "mon", "del"],\
+                "cmb":{},"w":1,\
+                "cost": 3, \
+                "requires": []},\ 
+    "Huijari": {"kwd": ["mon", "att", "del"],\
+                "cmb":{},"w":1,\
+                "cost": 3, \
+                "requires": []},\
+    "Kiduttaja": {"kwd": ["att", "drw", "cur", "dsc"],\
+                "cmb":{},"w":1,\
+                "cost": 5, \
+                "requires": []},\
+    "Kauppa-asema": {"kwd": ["del", "add"],\
+                "cmb":{},"w":1,\
+                "cost": 5, \
+                "requires": []},\
+    "Kymmenykset": {"kwd": ["act", "mon", "drw"],\
+                "cmb":{},"w":1,\
+                "cost": 5, \
+                "requires": []},\
+    "Parannustyö": {"kwd": ["drw", "act", "del", "add"],\
+                "cmb":{},"w":1,\
+                "cost": 5, \
+                "requires": []},\
+    "Toivomuskaivo": {"kwd": ["drw", "act"],\
+                "cmb":{},"w":1,\
+                "cost": 3, \
+                "requires": []},\
+    "Suuri sali": {"kwd": ["drw", "act", "pnt"],\
+                "cmb":{"pnt": -0.1},"w":1,\
+                "cost": 3, \
+                "requires": []},\
+    "Aateliset": {"kwd": ["act", "drw", "pnt"],\
+                "cmb":{"pnt": -0.1},"w":1,\
+                "cost": 6, \
+                "requires": []},\
+    "Haaremi": {"kwd": ["mon", "pnt"],\
+                "cmb":{"pnt": -0.1},"w":1,\
+                "cost": 6, \
+                "requires": []},\
+    "Herttua": {"kwd": ["pnt"],\
+                "cmb":{},"w":1,\
+                "cost": 5, \
+                "requires": []}\
+}
