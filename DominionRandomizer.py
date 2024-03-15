@@ -7,6 +7,7 @@ DLC = { "Valtakunta": 1, \
 
 
 debug = 0
+noweights = 0
 kortit = {}
 
 for pack in DLC:
@@ -18,21 +19,21 @@ for pack in DLC:
 
 peli = []
 tyypit = {\
-"att": 0,\
-"def": 0,\
-"rev": 0,\
-"mon": 0,\
-"buy": 0,\
-"cur": 0,\
-"drw": 0,\
-"dsc": 0,\
-"act": 0,\
-"shf": 0,\
-"scr": 0,\
-"pnt": 0,\
-"del": 0,\
-"add": 0,\
-"rem": 0
+    "att": 0,\
+    "def": 0,\
+    "rev": 0,\
+    "mon": 0,\
+    "buy": 0,\
+    "cur": 0,\
+    "drw": 0,\
+    "dsc": 0,\
+    "act": 0,\
+    "shf": 0,\
+    "scr": 0,\
+    "pnt": 0,\
+    "del": 0,\
+    "add": 0,\
+    "rem": 0
 }
 
 if debug:
@@ -52,7 +53,10 @@ while(not len(peli)>9):
                 w+= float(kortit[kortti]["cmb"][mod])*tyypit[mod]
             if w<0:
                 w=0
-            painot.append(w)
+            if noweights:
+                painot.append(1)
+            else:
+                painot.append(w)
     peli.append(rng.choices(arvontalista,painot)[0])
     if debug:
         print("lul")
