@@ -1,9 +1,10 @@
 import random as rng
 from DRcom import *
 
-DLC = { "Valtakunta": 1, \
-        "Elonkerjuu": 1, \
-        "Hovin_juonet": 1}
+DLC = { "Valtakunta": 1,   \
+        "Elonkerjuu": 1,   \
+        "Hovin_juonet": 1, \
+        "Nousukausi": 1}
 
 
 debug = 0
@@ -33,7 +34,8 @@ tyypit = {\
     "pnt": 0,\
     "del": 0,\
     "add": 0,\
-    "rem": 0
+    "rem": 0,\
+    "trs": 0,\
 }
 
 if debug:
@@ -70,6 +72,12 @@ while(not len(peli)>9):
 peli.sort()
 
 max_length = max(len(kortti) for kortti in peli)
+colonychance = 0.25
 for kortti in peli:
-    print(f"{kortti:<{max_length}}\t\t({kortit[kortti]['DLC']})")
+    print(f"{kortit[kortti]['cost']} {kortti:<{max_length}}\t\t({kortit[kortti]['DLC']})")
+    if kortit[kortti]['DLC'] == "Nousukausi" and colonychance < 0.9:
+        colonychance += 0.1
+if rng.random() < colonychance:
+    print(f"9 {'Platina':<{max_length}}\t\t(Nousukausi)")
+    print(f"11 {'Siirtokunta':<{max_length}}\t\t(Nousukausi)")
     

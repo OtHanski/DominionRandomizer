@@ -118,7 +118,6 @@ Valtakunta = {\
                     "requires": []}\
 }
   
-
 Elonkerjuu = {\
     "Ennustaja": {"kwd": ["mon", "att", "scr"],\
                 "cmb":{"att":-0.1},"w":1,\
@@ -274,5 +273,108 @@ Hovin_juonet = {\
     "Herttua": {"kwd": ["pnt"],\
                 "cmb":{},"w":1,\
                 "cost": 5, \
+                "requires": []}\
+}
+
+Nousukausi = {\
+    "Aarre": {"kwd": ["trs","add"],\
+                "cmb":{"trs": -0.2},"w":1,\
+                "cost": 6, \
+                "requires": []},\
+    "Ahjo": {"kwd": ["del", "add"],\
+                "cmb":{},"w":1,\
+                "cost": 7, \
+                "requires": []},\
+    "Holvi": {"kwd": ["drw","mon"],\
+                "cmb":{},"w":1,\
+                "cost": 5, \
+                "requires": []},\
+    "Hämärät varat": {"kwd": ["trs", "buy"],\
+                "cmb":{"trs":-0.2},"w":1,\
+                "cost": 5, \
+                "requires": []},\
+    "Kauppareitti": {"kwd": ["buy", "mon", "del"],\
+                "cmb":{},"w":1,\
+                "cost": 3, \
+                "requires": []},\
+    "Kaupunki": {"kwd": ["drw", "act", "buy"],\
+                "cmb":{},"w":1,\
+                "cost": 5, \
+                "requires": []},\
+    "Kulkukauppias": {"kwd": ["drw", "act", "mon"],\
+                "cmb":{"act": 0.15},"w":0.3,\
+                "cost": 8, \
+                "requires": []},\
+    "Kuninkaan hovi": {"kwd": ["act"],\
+                "cmb":{},"w":1,\
+                "cost": 7, \
+                "requires": []},\
+    "Laajennus": {"kwd": ["del", "add"],\
+                "cmb":{},"w":1,\
+                "cost": 7, \
+                "requires": []},\
+    "Laina": {"kwd": ["trs", "del"],\
+                "cmb":{"trs":-0.1},"w":1,\
+                "cost": 3, \
+                "requires": []},\
+    "Louhos": {"kwd": ["trs"],\
+                "cmb":{"trs":-0.2},"w":1,\
+                "cost": 4, \
+                "requires": []},\
+    "Monumentti": {"kwd": ["mon", "pnt"],\
+                "cmb":{},"w":1,\
+                "cost": 4, \
+                "requires": []},\
+    "Palkkio": {"kwd": ["trs"],\
+                "cmb":{"trs":-0.1},"w":1,\
+                "cost": 5, \
+                "requires": []},\
+    "Pankki": {"kwd": ["trs"],\
+                "cmb":{"trs":-0.1},"w":1,\
+                "cost": 7, \
+                "requires": []},\
+    "Piispa": {"kwd": ["mon", "del"],\
+                "cmb":{},"w":1,\
+                "cost": 4, \
+                "requires": []},\
+    "Petkuttaja": {"kwd": ["mon","cur","att"],\
+                "cmb":{"cur":-0.5, "att":-0.5},"w":1,\
+                "cost": 5, \
+                "requires": []},\
+    "Rahapaja": {"kwd": ["add", "del"],\
+                "cmb":{"trs":0.2},"w":1,\
+                "cost": 5, \
+                "requires": []},\
+    "Rahvas": {"kwd": ["att", "scr", "drw"],\
+                "cmb":{"att":-0.4},"w":1,\
+                "cost": 5, \
+                "requires": []},\
+    "Roistot": {"kwd": ["buy","mon", "att", "pnt"],\
+                "cmb":{},"w":1,\
+                "cost": 6, \
+                "requires": []},\
+    "Sinetti": {"kwd": ["trs", "scr"],\
+                "cmb":{"trs":-0.2},"w":1,\
+                "cost": 5, \
+                "requires": []},\
+    "Suurtori": {"kwd": ["act", "drw", "buy", "mon"],\
+                "cmb":{},"w":1,\
+                "cost": 6, \
+                "requires": []},\
+    "Talismaani": {"kwd": ["trs", "add"],\
+                "cmb":{"trs":-0.2},"w":1,\
+                "cost": 4, \
+                "requires": []},\
+    "Tilitoimisto": {"kwd": ["mon"],\
+                "cmb":{},"w":1,\
+                "cost": 5, \
+                "requires": []},\
+    "Työläiskylä": {"kwd": ["drw", "act", "buy"],\
+                "cmb":{},"w":1,\
+                "cost": 4, \
+                "requires": []},\
+    "Vartiotorni": {"kwd": ["drw", "scr", "def", "del"],\
+                "cmb":{"att":0.2},"w":1,\
+                "cost": 0, \
                 "requires": []}\
 }
